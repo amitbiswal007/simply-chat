@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 90vh;
+            text-align: center;
+            color: darkslateblue;
+        }
+        #messages-container{
+            height: 60vh;
+            display: inline-block;
+            text-align: left;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            color: darkslateblue;
+            
+        }
+        #messageInput, #sendBtn, #username, #messages-container {
+            width: 500px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Chat App</h1>
+    <h1>Simply Chat</h1>
 
     <div id="messages-container">
     </div>
@@ -16,7 +39,7 @@
     <div>
         <input type="text" id="username" placeholder="Enter your username" value="John">
         <br>
-        <textarea id="messageInput" placeholder="Enter your chat message"></textarea>
+        <textarea id="messageInput" rows="4" placeholder="Enter your chat message"></textarea>
         <br>
         <button type="submit" id="sendBtn">Send</button>
     </div>
