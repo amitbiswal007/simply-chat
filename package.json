@@ -1,0 +1,22 @@
+{
+  "name": "chat-app-sample",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple chat application using websocket protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "websocket",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
