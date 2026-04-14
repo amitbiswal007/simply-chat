@@ -18,6 +18,10 @@ node index.js
 ```
 - View the webapp at http://localhost:3000
 
+## Sample Screenshot
+
+![Sample](sample-screenshot.PNG)
+
 
 ## Todo (in future)
 
