@@ -1,4 +1,6 @@
-# Chat App Sample
+## Simple Chat
+
+## About
 
 A Simple Realtime Chat App using Websockets
 
